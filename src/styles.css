@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+.container{
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  height: 100vh;
+  row-gap: 0.5em;
+}
+
+header.container_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5em;
+}
+.condition-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5em;
+  padding: 0.5em;
+}
+
+.add-container{
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+th.p-table-button {
+  width: 10%;
+  row-gap: 0.5em;
+}
+
+.query-container {
+  display: flex;
+  place-content: center;
+  grid-column-gap: 0.5em;
+  column-gap: 0.5em;
+  padding: 0.5em;
+  justify-content: space-between;
+}
+
+.table-container {
+  display: flex;
+  /* justify-content: flex-start; */
+  padding-right: 10em;
+  padding-left: 10em;
+  margin-top: 5em;
+}
